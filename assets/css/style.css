@@ -27,7 +27,7 @@ h1 {
     border: 1px solid black;
 }
 
-.message-container {
+#message {
     color: darkorange;
     font-size: 1.5em;
     font-weight: bold;
@@ -42,11 +42,13 @@ button {
 #flip,
 #roll {
     background: linear-gradient(to bottom left, lightblue, white);
+    display: block;
 }
 
 #flip:hover,
 #roll:hover {
     background: linear-gradient(to bottom left, darkblue, lightblue);
+    
 }
 
 #clear {
@@ -69,3 +71,4 @@ td {
     padding: 5px;
     font-weight: bold;
 }
+
